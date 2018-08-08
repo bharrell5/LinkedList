@@ -5,7 +5,7 @@
  */
 /**
  *
- * @author jjsullivan
+ * @author brett
  */
 public class Node {
    public String word;
