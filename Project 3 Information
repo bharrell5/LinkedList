@@ -1,0 +1,34 @@
+Project 3: The Linked List
+
+Goals
+This project incorporates concepts that we already understand (i.e. methods, loops, input, output) and introduces some new ones 
+(i.e. a deeper look at classes).
+
+Step-by-Step Development
+As you know, programs are written in stages, not all at once.  
+Start with a small piece of the program, and work up to the final version in small steps.  
+Here is a suggested strategy for this project.  At each step, make sure you have a working program before you go to the next step!
+
+1.	Get Familiar with the Problem
+
+Carefully read the program description and look at the data file to gain an understanding of what is to be done.  
+Make sure you are clear on how a linked list is managed.  
+You will want to make several drawings of what is happening since we cannot look inside the computer to view the list.  Think!
+
+2.	The Node Class Type 
+
+Now concentrate on the Node class that we define to store each unique word in the data file and how many times it occurs.
+•	You must complete the methods in the Node class and use them effectively throughout your program.  
+•	Notice that the class variables are public, which is a different approach than we are used to.
+
+3.	The List Class
+The List Class contains a reference to the start of the list (first) and the methods to maintain the list.
+
+4.	Searching, Inserting, and Updating Nodes 
+•	Whenever you read a new word from the data file you must search through the list to determine if it already exists.
+•	If it exists, add one (1) to the counter of how many times it exists.
+•	If it does not exist, insert it in the list maintaining the alphabetical order of the list.
+
+5.	Final cleanup and testing 
+Call the method displayList() to print out the list once you have read the entire data file.
+Clean up any small bugs and add comments for documentation.
