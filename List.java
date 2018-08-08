@@ -5,7 +5,7 @@
  */
 /**
  *
- * @author jjsullivan
+ * @author brett
  */
 public class List {
     private Node first;
